@@ -9,7 +9,7 @@ pipeline {
 
     stage('/ Shell Script') {
       steps {
-        sh '''la -la
+        sh '''ls -la
 '''
       }
     }
